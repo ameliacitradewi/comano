@@ -1,1036 +1,375 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>COMANO</title>
-        <meta name="description" content="Your Personal Public Speaking Coach">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="Images/Icons/icon_duck.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="script" href="scripts.js" />
+  <title>Comano - Public Speaking Mastered</title>
+</head>
 
-        <!-- CSS here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">Comano</div>
+      <ul class="nav-links">
+        <li onclick="scrollToSection('features')">Features</li>
+        <li onclick="scrollToSection('components')">Metrics</li>
+        <li onclick="scrollToSection('tech')">Technology</li>
+        <li onclick="scrollToSection('faq')">FAQ</li>
+        <li onclick="scrollToSection('team')">Team</li>
+      </ul>
+      <a href="https://apps.apple.com/id/app/comano-public-speaking-coach/id6747808692?l=id"
+        class="btn-nav">Download</a>
+    </div>
+  </nav>
 
-        <!-- header s -->
-        <header id="header-sticky" class="header transparent-header pt-70 pl-65 pr-65">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-xl-2 col-lg-3">
-                        <div class="header__logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-lg-9">
-                        <div class="header__menu main-menu text-center">
-                            <nav class="navbar navbar-expand-lg">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                                    <span class="navbar-icon"></span>
-                                    <span class="navbar-icon"></span>
-                                    <span class="navbar-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#work">How It Works?</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#theteam">The Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
-                                        <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 d-none d-xl-block">
-                        <div class="header__btn second-b text-right">
-                            <a href="https://apps.apple.com/us/app/comano/id6747808692" class="btn">Download Now</a>
-                        </div>
-                    </div>
-                </div>
+  <section class="hero reveal active">
+    <div class="pill">Available Now</div>
+    <h1>Public Speaking.<br><span class="gradient-text">Mastered.</span></h1>
+    <p class="section-subtitle">
+      Your intelligent coach for pitch, pace, volume and pause. <br>
+      Real-time feedback powered by on-device AI.
+    </p>
+
+    <img src="Images/Icons/icon_comano.svg" class="app-icon-placeholder" alt="App Icon">
+
+    <a href="https://apps.apple.com/id/app/comano-public-speaking-coach/id6747808692?l=id"
+      class="btn-primary reveal delay-1">Get the App</a>
+
+    <div class="mockup-stack-container reveal delay-2">
+      <div class="ipad-mockup ipad-back">
+        <img src="Images/Screenshoot/app-training.svg" alt="App Screen 3">
+      </div>
+
+      <div class="ipad-mockup ipad-middle">
+        <img src="Images/Screenshoot/app-feedback.svg" alt="App Screen 2">
+      </div>
+
+      <div class="ipad-mockup ipad-front">
+        <img src="Images/Screenshoot/app-main.svg" alt="App Screen 1">
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section-bento">
+    <div class="container">
+      <div class="reveal text-left">
+        <h2 class="section-title">Pro-level analysis.<br><span style="color:var(--text-secondary)">In your
+            pocket.</span></h2>
+      </div>
+
+      <div class="bento-grid reveal delay-1">
+        
+        <div class="bento-card bento-full">
+          <div class="bento-content">
+            <h3>Train Your Voice Effortlessly.</h3>
+            <p>Begin quick, guided speaking exercises designed to gradually strengthen your vocal control, making each session simple and easy to stay consistent with.</p>
+          </div>
+          <div class="bento-mockup-wrapper">
+             <img src="Images/Screenshoot/app-main.svg" alt="Dashboard Mockup" class="bento-img-full">
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="bento-content">
+            <h3>Get Insights On Every Session.</h3>
+            <p>Comano provides structured insights into your speech, helping you understand where you’re improving.</p>
+          </div>
+          <div class="bento-mockup-wrapper">
+            <img src="Images/Screenshoot/app-feedback.svg" alt="Feedback Mockup" class="bento-img">
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="bento-content">
+            <h3>Build Strong Speaking Habits.</h3>
+            <p>Set meaningful goals, maintain steady daily streaks, and track your growth over time as Comano helps you build long-lasting, confident speaking habits.</p>
+          </div>
+          <div class="bento-mockup-wrapper">
+            <img src="Images/Screenshoot/app-training.svg" alt="Training Mockup" class="bento-img">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="components" class="section-components">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Master the Fundamentals.</h2>
+        <p class="section-subtitle subtitle-left">
+    Develop the vocal skills that make your speech sound clear, confident, and compelling, guided step by step by Comano.
+</p>
+      </div>
+
+      <div class="components-grid reveal delay-1">
+
+        <div class="component-card">
+          <div class="comp-icon c-pitch">
+            <img src="Images/Icons/icon-pitch.svg" alt="Pitch Icon">
+          </div>
+          <h3>Pitch</h3>
+          <p>The vocal variation that keeps audience engaged.</p>
+        </div>
+
+        <div class="component-card">
+          <div class="comp-icon c-pace">
+            <img src="Images/Icons/icon-pace.svg" alt="Pace Icon">
+          </div>
+          <h3>Pace</h3>
+          <p>The speaking speed that keeps your message clear.</p>
+        </div>
+
+        <div class="component-card">
+          <div class="comp-icon c-volume">
+            <img src="Images/Icons/icon-volume.svg" alt="Volume Icon">
+          </div>
+          <h3>Volume</h3>
+          <p>The voice strength that ensures every word is heard.</p>
+        </div>
+
+        <div class="component-card">
+          <div class="comp-icon c-pause">
+            <img src="Images/Icons/icon-pause.svg" alt="Pause Icon">
+          </div>
+          <h3>Pause</h3>
+          <p>The intentional silence that adds emphasis and clarity.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="tech" class="section-tech">
+    <div class="container">
+      <div class="tech-header reveal">
+        <h2 class="section-title">Power under the hood.</h2>
+        <p class="section-subtitle">Built with the latest Apple technologies for speed and privacy.</p>
+      </div>
+
+      <div class="tech-grid reveal delay-1">
+        <div class="tech-card">
+          <div class="tech-icon">
+            <img src="Images/Icons/icon_swiftui.svg" alt="SwiftUI">
+          </div>
+          <div>
+            <div class="tech-title">SwiftUI</div>
+            <div class="tech-desc">Fluid, native animations and a beautiful interface that feels right at home on iOS.
             </div>
-        </header>
-        <!-- header-end -->
-        <main>
-            <!-- slider-area -->
-            <section id="hero" class="slider slider-bg second-slider" data-background="assets/img/slider/slider_02.jpg">
-                <div class="slider-activee">
-                    <div class="single-slider">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                                    <div class="slider__content second-c text-center">
-                                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">Improve Your Public Speaking Skills.</h2>
-                                        <p class="wow fadeInUp" data-wow-delay="0.4s">Level up your public speaking with guided practice designed to strengthen your pitch, pace, volume, and pauses. Comano delivers daily speaking tasks, AI feedback, and fun rewards!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-fluid d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <div class="slider__img second-i ml-0">
-                                        <img src="assets/img/slider/slider_img2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- slider-area-end -->
-            <!-- best-features -->
-            <section class="best-features pt-120 pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__bf mb-30 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="single__bf-icon mb-30">
-                                    <img src="assets/img/icon/icon_03.png" alt="">
-                                </div>
-                                <div class="single__bf-content">
-                                    <h3>Train Your Voice <br> Effortlessly.</h3>
-                                    <p>Begin quick, guided speaking exercises designed to gradually strengthen your vocal control, making each session simple and easy to stay consistent with.</p>
-                                </div>
-                                <div class="single__bf-btn">
-                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__bf mb-30 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="single__bf-icon mb-30">
-                                    <img src="assets/img/icon/icon_04.png" alt="">
-                                </div>
-                                <div class="single__bf-content">
-                                    <h3>Get Insights On Every Session.</h3>
-                                    <p>Comano provides structured insights into your speech, helping you understand where you’re improving.</p>
-                                </div>
-                                <div class="single__bf-btn">
-                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__bf mb-30 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="single__bf-icon mb-30">
-                                    <img src="assets/img/icon/icon_05.png" alt="">
-                                </div>
-                                <div class="single__bf-content">
-                                    <h3>Build Strong<br> Speaking Habits.</h3>
-                                    <p>Set meaningful goals, maintain steady daily streaks, and track your growth over time as Comano helps you build long-lasting, confident speaking habits.</p>
-                                </div>
-                                <div class="single__bf-btn">
-                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- best-features-end -->
-            <!-- work-process-area -->
-            <section id="work" class="work-process grey-bg pt-110 pb-85">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75">
-                                <span class="wow fadeInUp" data-wow-delay="0.2s">how work</span>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">How It Works?</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Master your voice with a training flow designed to feel simple, structured, and completely personalized to you.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="single__process-icon mb-40">
-                                    <img src="assets/img/icon/work_01.png" alt="">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="single__process-content">
-                                    <div class="number">01</div>
-                                    <h4>Start With a Full Assessment</h4>
-                                    <p>Begin with a quick, guided assessment so Comano can identify your strengths and pinpoint which speaking skills need the most improvement.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="single__process-icon mb-40">
-                                    <img src="assets/img/icon/work_02.png" alt="">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="single__process-content">
-                                    <div class="number">02</div>
-                                    <h4>Get Your Daily Task</h4>
-                                    <p>Set meaningful goals, maintain steady daily streaks, and watch your progress grow over time as Comano supports you in forming speaking habits.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="single__process-icon mb-40">
-                                    <img src="assets/img/icon/work_03.png" alt="">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="single__process-content">
-                                    <div class="number">03</div>
-                                    <h4>AI-Powered Feedback</h4>
-                                    <p>Receive clear, AI-powered feedback on your speech, giving you a deeper understanding of what’s improving and what still needs your attention.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- work-process-area-end -->
-            <!-- features-area -->
-            <section id="features" class="features-area pt-110 pb-115">
-                <div class="features-shape d-none d-sm-block" data-background="assets/img/bg/f_shape.png"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75">
-                                <span class="wow fadeInUp" data-wow-delay="0.2s">Features</span>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">The Best Features</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Discover the best features designed to help you speak with clarity, confidence, and measurable progress.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="feature__nav">
-                                <ul class="nav nav-tabs feature__nav-tab" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                                            aria-selected="true"><i class="far fa-comments"></i>Smart Voice Analysis</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                                            aria-selected="false"><i class="far fa-envelope"></i>Daily Tasks That Build Real Habits</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                                            aria-selected="false"><i class="far fa-chart-bar"></i>Motivation Through Rewards</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content feature__tab-content" id="myTabContent">
-                                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        <div class="single__features">
-                                            <div class="row align-items-center">
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-img">
-                                                        <img src="assets/img/features/f_01.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-content">
-                                                        <div class="f-title">
-                                                            <h2>See What Your Voice Is Really Saying</h2>
-                                                            <p>Comano helps you understand the parts of your voice that often go unnoticed: your pitch, pace, volume, and pauses.</p>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_01.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Detailed Vocal Breakdown</h5>
-                                                                <p>Get score into each vocal element: whether your pitch is too flat, your pace too quick, or your pauses missing. Comano highlights these details so you know exactly what’s affecting your delivery.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_02.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Clear and Actionable Feedback</h5>
-                                                                <p>Instead of vague suggestions, Comano gives AI feedback that you can apply immediately to improve your speech.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        <div class="single__features">
-                                            <div class="row align-items-center">
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-img wow fadeInLeft" data-wow-delay="0.2s">
-                                                        <img src="assets/img/features/f_02.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-content">
-                                                        <div class="f-title">
-                                                            <h2>Short Practices That Make a Big Difference</h2>
-                                                            <p>Speaking better doesn’t happen in one day. It’s built through small, consistent practice. Comano provides daily tasks tailored to what you need most</p>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_01.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Personalized Daily Tasks</h5>
-                                                                <p>Comano provides daily tasks tailored to what you need most: improving pitch control, stabilizing volume, slowing down your pace, or adding effective pauses.
-                                                                Every routine is short, guided, and supported by audio examples, making it easier to learn.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_02.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Guided With Examples</h5>
-                                                                <p>Each task includes scripts and audio samples, making it easy to understand how the ideal delivery should sound and how to match it.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                        <div class="single__features">
-                                            <div class="row align-items-center">
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-img">
-                                                        <img src="assets/img/features/f_01.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6">
-                                                    <div class="single__features-content">
-                                                        <div class="f-title">
-                                                            <h2>Stay Motivated as You Grow</h2>
-                                                            <p>Progress becomes more meaningful when you can see it.
-                                                                Comano tracks your streaks, milestones, and improvements over time, giving you a clear view of how your speaking skills evolve with each session.
-                                                                Earn rewards, unlock icons, and celebrate every step forward.</p>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_01.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Streak and Milestones</h5>
-                                                                <p>Stay consistent with visual streak tracking and milestone markers that show how far you’ve come, one day at a time.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="inner__features">
-                                                            <div class="icon">
-                                                                <img src="assets/img/icon/features_02.png" alt="">
-                                                            </div>
-                                                            <div class="inner__features-content">
-                                                                <h5>Rewards</h5>
-                                                                <p>Earn feathers, unlock badges, and collect icons as you practice: turning every improvement into something you can see and celebrate.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- features-area-end -->
-            <!-- cta-area -->
-            <section id="download" class="cta-area cta-sm cta-bg pt-105" data-background="assets/img/bg/cta_bg.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
-                            <div class="section__title cta-title text-center mb-20">
-                                <h2 class="wow fadeInUp" data-wow-delay="0.2s">Understand Your Vocal Performance Instantly</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">See all your key speaking metrics: pitch, pace, volume, and pauses, summarized clearly in a single place. Comano shows how each element shifts over time, helping you track progress and identify what needs attention.</p>
-                                <div class="cta-btn">
-                                    <a href="https://apps.apple.com/us/app/comano/id6747808692" class="btn wow fadeInUp" data-wow-delay="0.6s">Download Now</a><br>
-                                    <!-- <a href="#" class="btn wow fadeInUp" data-wow-delay="0.8s">Download Now</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="cta__img text-center">
-                                <img src="assets/img/cta/cta_img.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </section>
-            <!-- cta-area-end -->
-            <!-- pricing-area -->
-            <!-- <section id="theteam" class="pricing-area pt-110 pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75">
-                                <span class="wow fadeInUp" data-wow-delay="0.2s">pricing</span>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">Price & Plans</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="pricing__box p-bg text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>Free</span>
-                                    <h5>Basic</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$0<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="pricing__box p-bg active text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>basic</span>
-                                    <h5>Advance</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$49<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="pricing__box p-bg text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>corporate</span>
-                                    <h5>Team</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$199<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- pricing-area-end -->
-            <!-- awards-area -->
-            <!-- <section class="awards-area awards-bg" data-background="assets/img/bg/award_bg.jpg">
-                <div class="container">
-                    <div class="row mb-80">
-                        <div class="col-xl-7 col-lg-8">
-                            <div class="awards__title pt-115">
-                                <div class="awards__title-icon">
-                                    <img src="assets/img/icon/award_s.png" alt="">
-                                </div>
-                                <h2>Our Awards And Recognitions</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid awards-padding">
-                    <div class="row awards-active">
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_01.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2014</span>
-                                    <h6>Gulshan Soft Awards</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_02.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2015</span>
-                                    <h6>Grena Mike Consu</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_03.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2016</span>
-                                    <h6>Qulo Clone Software</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_04.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2017</span>
-                                    <h6>Best Css Soft Award</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_05.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2018</span>
-                                    <h6>Nurology Dash Software</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="single__awards text-center">
-                                <div class="single__awards-icon">
-                                    <img src="assets/img/icon/a_02.png" alt="">
-                                </div>
-                                <div class="awards-content">
-                                    <span>2015</span>
-                                    <h6>Grena Mike Consu</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- awards-area-end -->
-            <!-- software-features -->
-            <section class="s_features features-p pt-110 pb-30">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="section__title s-featres-title mb-40">
-                                <span>Features</span>
-                                <h2>Vocal Practice</h2>
-                                <p>Develop the vocal skills that make your speech sound clear, confident, and compelling, guided step by step by Comano.</p>
-                            </div>
-                            <div class="s-features__list mb-50">
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-check"></i>
-                                        <p>Learn to vary the highs and lows of your voice so your message sounds dynamic, engaging, and easier to follow.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check"></i>
-                                        <p>Control how fast you speak with guided exercises that help you stay steady, clear, and more intentional.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check"></i>
-                                        <p>Practice balancing loudness so your voice stays strong, consistent, and expressive without straining.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check"></i>
-                                        <p>Master the art of strategic silence to emphasize key points, give space for reflection, and improve overall delivery.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="s-features__btn">
-                                <a href="https://apps.apple.com/us/app/comano/id6747808692" class="btn">Download</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="s-features-padding pt-75">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="s__features-wrap text-center mb-90">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/sf_01.png" alt="">
-                                            </div>
-                                            <div class="s__features-wrap-content">
-                                                <h4>Pitch</h4>
-                                                <p>The vocal variation that keeps audience engaged.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="s__features-wrap text-center mb-90">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/sf_02.png" alt="">
-                                            </div>
-                                            <div class="s__features-wrap-content">
-                                                <h4>Volume</h4>
-                                                <p>The voice strength that ensures every word is heard.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="s__features-wrap text-center mb-90">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/sf_03.png" alt="">
-                                            </div>
-                                            <div class="s__features-wrap-content">
-                                                <h4>Pace</h4>
-                                                <p>The speaking speed that keeps your message clear.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="s__features-wrap text-center mb-90">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/sf_04.png" alt="">
-                                            </div>
-                                            <div class="s__features-wrap-content">
-                                                <h4>Pause</h4>
-                                                <p>The intentional silence that adds emphasis and clarity.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- software-features-end -->
-            <!-- blog-area -->
-            <!-- <section id="blog" class="blog-area grey-bg b-padding pt-110 pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75">
-                                <span class="wow fadeInUp" data-wow-delay="0.2s">news</span>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">Get News Feeds</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="blog__wrap mb-30">
-                                <div class="blog__wrap-thumb">
-                                    <img src="assets/img/blog/blog_01.jpg" alt="">
-                                </div>
-                                <div class="overly-content">
-                                    <div class="meta-info mb-15">
-                                        <ul>
-                                            <li><i class="far fa-user"></i>Romarola D. Kaoli</li>
-                                            <li><i class="far fa-calendar"></i>2 January 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-title">
-                                        <h2><a href="blog-details.html">Adipisicing elit, sed do eiusmod tempor
-                                        dunt ut labore et dolore magna.</a></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5">
-                            <div class="blog__wrap border-bottom d-flex align-items-center pb-40 mb-40">
-                                <div class="blog-thumb">
-                                    <img src="assets/img/blog/blog_02.jpg" alt="">
-                                </div>
-                                <div class="blog__content">
-                                    <div class="meta-info mb-15">
-                                        <ul>
-                                            <li><i class="far fa-user"></i>Romarola D. Kaoli</li>
-                                            <li><i class="far fa-calendar"></i>2 January 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h3><a href="blog-details.html">Consectetur adipisicing elit, sed do eiusmod tempor incididunt.</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog__wrap border-bottom d-flex align-items-center pb-40 mb-40">
-                                <div class="blog-thumb">
-                                    <img src="assets/img/blog/blog_03.jpg" alt="">
-                                </div>
-                                <div class="blog__content">
-                                    <div class="meta-info mb-15">
-                                        <ul>
-                                            <li><i class="far fa-user"></i>Romarola D. Kaoli</li>
-                                            <li><i class="far fa-calendar"></i>2 January 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h3><a href="blog-details.html">To generate Lorem Ipsum which looks doloremque reasonable.</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog__wrap border-bottom d-flex align-items-center pb-40 mb-40">
-                                <div class="blog-thumb">
-                                    <img src="assets/img/blog/blog_04.jpg" alt="">
-                                </div>
-                                <div class="blog__content">
-                                    <div class="meta-info mb-15">
-                                        <ul>
-                                            <li><i class="far fa-user"></i>Romarola D. Kaoli</li>
-                                            <li><i class="far fa-calendar"></i>2 January 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h3><a href="blog-details.html">Voluptatem accusantium laudantium totam aperiam.</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- blog-area-end -->
-            <!-- brand-area -->
-            <div class="brand-area bg-height d-flex align-items-center" data-background="assets/img/bg/brand_bg.jpg">
-                <div class="container text-center">
-                    <h2 class="wow fadeInUp" data-wow-delay="0.4s" style="color: white;">Tech Stack</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.6s" style="color: white">Our platform is built using a Apple technology designed for performance, stability, and long-term scalability.</p>
-                    <br><br>
+          </div>
+        </div>
 
-                        <div class="col-12">
-                            <div class="brand-active">
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_01.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">User Notification</p>
-                                </div>
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_02.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">SwiftUI</p>
-                                </div>
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_03.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">AVFoundation</p>
-                                </div>
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_04.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">Foundation Model</p>
-                                </div>
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_05.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">Speech Analyzer</p>
-                                </div>
-                                <!-- <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_06.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">Text Here</p>
-                                </div>
-                                <div class="single-brand text-center">
-                                    <img src="assets/img/brand/brand_04.png" alt="">
-                                    <p class="mt-3 mb-0" style="color: white;">Text Here</p>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
+        <div class="tech-card">
+          <div class="tech-icon">
+            <img src="Images/Icons/icon_foundationmode.svg" alt="Foundation">
+          </div>
+          <div>
+            <div class="tech-title">Foundation Models</div>
+            <div class="tech-desc">Advanced on-device LLMs process speech patterns to generate contextual feedback.
             </div>
-            <!-- brand-area-end -->
-             <!-- pricing-area -->
-            <section id="theteam" class="pricing-area pt-110 pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75">
-                                <span class="wow fadeInUp" data-wow-delay="0.2s">team</span>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">Meet the Team</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">A dedicated team of designers, engineers, and storytellers committed to delivering meaningful solutions. Here’s the group that makes everything happen.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-fluid d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-12 text-center">
-                    <!-- <div class="row">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section__title text-center mb-75"> -->
-                                <h3 class="mb-4">Developers</h3>
-                                <div class="d-flex flex-wrap justify-content-center align-items-start gap-2 mb-5">
-                                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="ameliacitradewi" data-version="v1">
-                                        <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/ameliacitradewi?trk=profile-badge"></a>
-                                        <a href="https://id.linkedin.com/in/ameliacitradewi" target="_blank" rel="noopener noreferrer" class="linkedin-fallback" style="display: none; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Amelia Citra Dewi</a>
-                                        <noscript><a href="https://id.linkedin.com/in/ameliacitradewi" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Amelia Citra Dewi - LinkedIn</a></noscript>
-                                    </div>
-                                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="HORIZONTAL" data-vanity="mbennyf" data-version="v1">
-                                        <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/mbennyf?trk=profile-badge"></a>
-                                        <a href="https://id.linkedin.com/in/mbennyf" target="_blank" rel="noopener noreferrer" class="linkedin-fallback" style="display: none; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Muhammad Benny Fathurrahman</a>
-                                        <noscript><a href="https://id.linkedin.com/in/mbennyf" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Muhammad Benny Fathurrahman - LinkedIn</a></noscript>
-                                    </div>
-                                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="HORIZONTAL" data-vanity="stevenofficial" data-version="v1">
-                                        <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/stevenofficial?trk=profile-badge"></a>
-                                        <a href="https://id.linkedin.com/in/stevenofficial" target="_blank" rel="noopener noreferrer" class="linkedin-fallback" style="display: none; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Steven Steven</a>
-                                        <noscript><a href="https://id.linkedin.com/in/stevenofficial" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Steven Steven - LinkedIn</a></noscript>
-                                    </div>
-                                </div>
-                                
-                                <h3 class="mb-4">UI/UX Designers</h3>
-                                <div class="d-flex flex-wrap justify-content-center align-items-start gap-2 mb-5">
-                                    <div class="badge-base LI-profile-badge" data-locale="in_ID" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="spardano" data-version="v1">
-                                        <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/spardano?trk=profile-badge"></a>
-                                        <a href="https://id.linkedin.com/in/spardano" target="_blank" rel="noopener noreferrer" class="linkedin-fallback" style="display: none; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Sakti P.</a>
-                                        <noscript><a href="https://id.linkedin.com/in/spardano" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Sakti P. - LinkedIn</a></noscript>
-                                    </div>
-                                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="sitirauzahzakirova" data-version="v1">
-                                        <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/sitirauzahzakirova?trk=profile-badge"></a>
-                                        <a href="https://id.linkedin.com/in/sitirauzahzakirova" target="_blank" rel="noopener noreferrer" class="linkedin-fallback" style="display: none; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Siti Rauzah Zakirova</a>
-                                        <noscript><a href="https://id.linkedin.com/in/sitirauzahzakirova" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 15px; background: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin: 0 5px;">Siti Rauzah Zakirova - LinkedIn</a></noscript>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-              
-                            <!-- <div class="pricing__box p-bg text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>Free</span>
-                                    <h5>Basic</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$0<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="pricing__box p-bg active text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>basic</span>
-                                    <h5>Advance</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$49<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="pricing__box p-bg text-center mb-30" data-background="assets/img/pricing/pricing_bg.jpg">
-                                <div class="pricing__box-head">
-                                    <span>corporate</span>
-                                    <h5>Team</h5>
-                                </div>
-                                <div class="pricing__box-body mb-25">
-                                    <p>Unlimited for 15 user advanced Colaborative option for partners & families.</p>
-                                </div>
-                                <div class="price-count mb-45">
-                                    <h2>$199<span>/mo</span></h2>
-                                </div>
-                                <div class="pricing__box-btn">
-                                    <a href="#" class="btn">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </section>
-            <!-- pricing-area-end -->
-        </main>
-        <!-- footer-area -->
-        <footer class="footer__bg pt-105" data-background="assets/img/bg/footer_bg.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 mb-90">
-                        <div class="footer__cta text-center">
-                            <div class="section__title footer-title text-center mb-45 wow fadeInUp" data-wow-delay="0.2s">
-                                <h2>Get Every Updates Form Comano</h2>
-                            </div>
-                            <div class="footer__cta-form wow fadeInUp" data-wow-delay="0.4s">
-                                <form action="#">
-                                    <input type="text" placeholder="Enter your email address....">
-                                    <button class="btn">Subscribe Now</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
 
-                <div class="row mb-30">
-                    <div class="col-12">
-                        <div class="footer__widget text-center">
-                            <div class="footer__widget-link">
-                                <ul style="display: inline-flex; gap: 20px; justify-content: center; list-style: none; padding: 0;">
-                                    <li><a href="privacy.html">Privacy</a></li>
-                                    <li><a href="support.html">Support</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="row mb-90">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer__widget mb-30">
-                            <div class="footer__widget-title mb-30">
-                                <h4>Our Services</h4>
-                            </div>
-                            <div class="footer__widget-link">
-                                <ul>
-                                    <li><a href="#">Expand</a></li>
-                                    <li><a href="#">Annualize</a></li>
-                                    <li><a href="#">Trach</a></li>
-                                    <li><a href="#">Engineering</a></li>
-                                    <li><a href="#">UI/UX</a></li>
-                                    <li><a href="#">Development</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
-                        <div class="footer__widget mb-30">
-                            <div class="footer__widget-title mb-30">
-                                <h4>About Us</h4>
-                            </div>
-                            <div class="footer__widget-link">
-                                <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Terms & Condition</a></li>
-                                    <li><a href="#">E-Books</a></li>
-                                    <li><a href="#">Calculate</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-4">
-                        <div class="footer__widget mb-30">
-                            <div class="footer__widget-title mb-30">
-                                <h4>Press</h4>
-                            </div>
-                            <div class="footer__widget-link">
-                                <ul>
-                                    <li><a href="#">Presentation</a></li>
-                                    <li><a href="#">Dashboard</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Management</a></li>
-                                    <li><a href="#">Publication</a></li>
-                                    <li><a href="#">Features</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
-                        <div class="footer__widget sm-padding mb-30 pl-50">
-                            <div class="footer__widget-title mb-30">
-                                <h4>Terms & Conditions</h4>
-                            </div> -->
-                            <!-- <div class="footer__widget-post">
-                                <ul>
-                                    <li>
-                                        <div class="post-thumb">
-                                            <img src="assets/img/blog/f-blog_01.jpg" alt="img">
-                                        </div>
-                                        <div class="post-content">
-                                            <h3><a href="#">Dolor sit amet, consectet is was
-                                            adipisicing elite author.</a></h3>
-                                            <div class="meta-info">
-                                                <span><i class="far fa-calendar"></i>2 January 2019</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="post-thumb">
-                                            <img src="assets/img/blog/f-blog_02.jpg" alt="img">
-                                        </div>
-                                        <div class="post-content">
-                                            <h3><a href="#">Dolor sit amet, consectet is was
-                                            adipisicing elite author.</a></h3>
-                                            <div class="meta-info">
-                                                <span><i class="far fa-calendar"></i>2 January 2019</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="post-thumb">
-                                            <img src="assets/img/blog/f-blog_03.jpg" alt="img">
-                                        </div>
-                                        <div class="post-content">
-                                            <h3><a href="#">Dolor sit amet, consectet is was
-                                            adipisicing elite author.</a></h3>
-                                            <div class="meta-info">
-                                                <span><i class="far fa-calendar"></i>2 January 2019</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright-wrap">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="copyright__text pt-35 pb-35 text-center">
-                                <p>Copyright All Right Reserved By COMANO - 2025</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="tech-card">
+          <div class="tech-icon">
+            <img src="Images/Icons/icon_speech.svg" alt="Speech">
+          </div>
+          <div>
+            <div class="tech-title">Speech Analyzer</div>
+            <div class="tech-desc">Real-time audio processing detects pitch, volume, and pace with millisecond latency.
             </div>
-        </footer>
-        <!-- footer-area-end -->
+          </div>
+        </div>
 
+        <div class="tech-card">
+          <div class="tech-icon">
+            <img src="Images/Icons/icon_usernotif.svg" alt="Notifications">
+          </div>
+          <div>
+            <div class="tech-title">User Notifications</div>
+            <div class="tech-desc">Smart reminders and practice prompts keep you on track with your speaking goals.
+            </div>
+          </div>
+        </div>
 
-        <!-- JS here -->
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/one-page-nav-min.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/ajax-form.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.scrollUp.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-        <script>
-            // Fallback untuk LinkedIn badges jika tidak dimuat karena browser shield
-            setTimeout(function() {
-                var badges = document.querySelectorAll('.LI-profile-badge');
-                badges.forEach(function(badge) {
-                    // Cek apakah badge memiliki konten (iframe atau konten LinkedIn)
-                    var hasContent = badge.querySelector('iframe') || badge.querySelector('.LI-profile-badge__container') || badge.querySelector('.LI-badge-container');
-                    if (!hasContent) {
-                        // Tampilkan fallback link yang sudah ada
-                        var fallback = badge.querySelector('a.linkedin-fallback');
-                        if (fallback) {
-                            fallback.style.display = 'inline-block';
-                        }
-                    }
-                });
-            }, 3000); // Tunggu 3 detik untuk badge dimuat
-        </script>
-    </body>
+        <div class="tech-card">
+          <div class="tech-icon">
+            <img src="Images/Icons/icon_avfound.svg" alt="Privacy">
+          </div>
+          <div>
+            <div class="tech-title">AV Foundation</div>
+            <div class="tech-desc">Data is processed in a secure enclave, ensuring your voice data never leaves your
+              device.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section-faq">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title" style="text-align: center;">Frequently Asked Questions.</h2>
+        <p class="section-subtitle">Everything you need to know about Comano.</p>
+      </div>
+
+      <div class="faq-container reveal delay-1">
+        <div class="faq-item">
+          <button class="faq-question">Is my audio data sent to a server? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>No. Comano is designed with privacy first. All speech processing happens directly on your device using
+              Apple's Neural Engine. Your raw audio never leaves your phone.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do I need an internet connection to practice? <span
+              class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>No internet connection is required for core practice modes. Because the AI models run locally on your
+              device, you can practice anywhere, anytime.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Is Comano free to use? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>Comano is free to use on-device Public Speaking practice App</p>
+          </div>
+        </div>
+
+        <div class="contributors-block reveal delay-2">
+          <h3>Expert Resources</h3>
+          <p>Special thanks to these talented individuals for sharing their expertise and helping enrich Comano’s foundation.</p>
+          <ul class="contributors-list">
+            <li><a href="https://www.linkedin.com/in/obedreywillys" target="_blank">Obedrey Willys ↗</a> - Group Mentor | Professional Skills & Employability Learning Partner</li>
+            <li><a href="https://www.linkedin.com/in/melyarisandi" target="_blank">Mely Arisandi ↗</a> - Subject-Matter Experts | Public Speaking & Personal Branding Coach</li>
+            <li><a href="https://www.linkedin.com/" target="_blank">Ronny Fauzi ↗</a> - Subject-Matter Experts </li>
+            <li><a href="https://www.linkedin.com/" target="_blank">Rizqiani Putri ↗</a> - Subject-Matter Experts</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section-team">
+    <div class="container reveal">
+      <h2 class="section-title">Designed by Humans.</h2>
+      <p class="section-subtitle">A dedicated team of 5 building the future of communication.</p>
+
+      <div class="team-grid">
+        <a href="https://www.linkedin.com/in/ameliacitradewi/" target="_blank" class="member-card">
+          <div class="avatar g1">
+            <img src="Images/Members/member-amelia.svg" alt="Amelia">
+          </div>
+          <div class="member-info">
+            <div class="member-name">Amelia Citra Dewi</div>
+            <div class="member-role">iOS Developer</div>
+          </div>
+        </a>
+
+        <a href="http://www.linkedin.com/in/spardano" target="_blank" class="member-card">
+          <div class="avatar g2">
+            <img src="Images/Members/member-dano.svg" alt="Dano">
+          </div>
+          <div class="member-info">
+            <div class="member-name">Sakti Pardano</div>
+            <div class="member-role">UI/UX Designer</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/stevenofficial/" target="_blank" class="member-card">
+          <div class="avatar g3">
+            <img src="Images/Members/member-steven.svg" alt="Steven">
+          </div>
+          <div class="member-info">
+            <div class="member-name">Steven</div>
+            <div class="member-role">iOS Developer</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sitirauzahzakirova/" target="_blank" class="member-card">
+          <div class="avatar g4">
+            <img src="Images/Members/member-siti.svg" alt="Siti">
+          </div>
+          <div class="member-info">
+            <div class="member-name">Siti Rauzah Zakirova</div>
+            <div class="member-role">UI/UX Designer</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mbennyf" target="_blank" class="member-card">
+          <div class="avatar g5">
+            <img src="Images/Members/member-benny.svg" alt="Benny">
+          </div>
+          <div class="member-info">
+            <div class="member-name">Muhammad Benny Fathurrahman</div>
+            <div class="member-role">iOS Developer</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Copyright © 2025 Comano Co. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="privacypolicy-publicspeaking.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth Scroll Helper
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Scroll Animation Observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // FAQ Accordion Logic
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+
+      question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+
+        // Optional: Close others when opening one
+        faqItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-answer').style.maxHeight = null;
+          }
+        });
+
+        if (isActive) {
+          item.classList.remove('active');
+          answer.style.maxHeight = null;
+        } else {
+          item.classList.add('active');
+          // Set max-height to the scrollHeight value for smooth transition
+          answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+      });
+    });
+  </script>
+
+</body>
+
 </html>
